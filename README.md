@@ -10,8 +10,8 @@ This project focuses on classifying different types of flowers using machine lea
 │   ├── val
 │   └── test
 ├── Finetunning_result
-│   └── RandomForest.csv
-│   └── lightGBM.csv
+│   ├── RandomForest.csv
+│   ├── lightGBM.csv
 │   └── svm.csv
 ├── pickle
 │   ├── svm_model_4.pkl
