@@ -10,7 +10,9 @@ This project focuses on classifying different types of flowers using machine lea
 │   ├── val
 │   └── test
 ├── Finetunning_result
-│   └── results.csv
+│   └── RandomForest.csv
+│   └── lightGBM.csv
+│   └── svm.csv
 ├── pickle
 │   ├── svm_model_4.pkl
 │   ├── lightgbm_model_4.pkl
@@ -50,6 +52,7 @@ Run the script to train the models:
 ```bash
 python training_model.py
 ```
+Alternatively, you can use the pre-trained models available in the pickle folder.
 
 ### Training Process
 
